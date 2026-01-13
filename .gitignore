@@ -1,0 +1,47 @@
+# Dependencias
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.next/cache/
+.cache/
+.eslintcache
+
+# Coverage
+coverage/
+
+# Archivos generados por TypeScript
+*.tsbuildinfo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores / IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos de despliegue (opcional)
+.vercel
